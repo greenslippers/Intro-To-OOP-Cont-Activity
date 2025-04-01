@@ -34,7 +34,7 @@ def test_add_single_class():
     assert student.classes == ["Math", "Chemistry", "Biology"]
 
 def test_get_num_classes():
-     # Arrange
+    # Arrange
     name = "Masha"
     grade = 11
     classes = ["Math", "Chemistry"]
@@ -48,7 +48,7 @@ def test_get_num_classes():
     assert num_classes == 2
 
 def test_display_classes():
-     # Arrange
+    # Arrange
     name = "Masha"
     grade = 11
     classes = ["Math", "Chemistry"]
@@ -62,7 +62,7 @@ def test_display_classes():
 
 
 def test_display_empty_classes():
-     # Arrange
+    # Arrange
     name = "Masha"
     grade = 11
     classes = []
@@ -76,7 +76,7 @@ def test_display_empty_classes():
 
 
 def test_summary():
-     # Arrange
+    # Arrange
     name = "Masha"
     grade = 11
     classes = ["Math", "Chemistry"]
